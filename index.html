@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulika's Fitness</title>
+    
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/pexels-leon-ardho-1552106.jpg');
+       
+        background-size: 1500px;
+       font-family: cursive;
+      
+        
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 65px;
+        top: 15px;
+        
+    }
+    .left img{
+        width:100px;
+        padding: 8px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+        line-height: 0px;
+        font-size: 15px;
+        line-height: 3px;
+        font-size: 15px;
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 15px auto;
+       
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 15px;
+       
+    }
+    .navbar{
+       
+        display:inline-block;
+    }
+    .navbar li{
+        
+        display: inline-block;
+        font-size: 18px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 30px 20px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color:rgb(179, 172, 172);
+    }
+    .b{
+        margin:0px 4px;
+        padding: 4px 18px;
+        background-color: black;
+        color: white;
+        border: 2px solid grey;
+        border-radius: 12px;
+        cursor: pointer;
+        font-family: cursive;
+    }
+    .b:hover{
+        background-color: rgb(51, 47, 46);
+        color: rgb(232, 232, 232);
+    }
+    .ctn{
+        
+    margin: 70px;
+    padding: 89px 95px;
+    border-radius: 10px;
+    width: 25%;
+    }
+    .ctn h3{
+        text-align: center;
+    }
+    .ctn button{
+        display: block;
+        width: 30%;
+        margin: auto;
+        padding: 6px;
+    }
+    
+    .form-grp input{
+        text-align: center;
+    display: block;
+    padding: 8px;
+    width: 67%;
+    border-radius: 16px;
+    margin: 6px auto;
+    font-family: unset;
+    }
+</style>
+<body>
+    <header>
+        <!-- left div for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>Tulika's Fitness</div>
+        </div>
+        <!-- mid div for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+             </ul>
+        </div>
+        <!-- right div for buttons -->
+        <div class="right">
+                <button class="b">Call Now</button>
+                <button class="b">Email</button>
+        </div>
+    </header>
+    
+    <div class="ctn">
+        
+      <h3>JOIN THE BEST GYM OF KOLKATA !</h3>
+      <form action="noaction.php">
+        <div class="form-grp">
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="form-grp">
+            <input type="text" placeholder="Enter your gender(M/F)">
+        </div>
+        <div class="form-grp">
+            <input type="text" placeholder="Enter your age">
+        </div>
+        <div class="form-grp">
+            <input type="text" placeholder="Enter your contact number">
+        </div>
+        <div class="form-grp">
+            <input type="text" placeholder="Enter your email-id">
+        </div>
+        <div class="form-grp">
+            <input type="text" placeholder="Enter your address">
+        </div>
+        <button class="b">Submit</button>
+      </form>
+    
+     
+    </div>
+</body>
+</html>
